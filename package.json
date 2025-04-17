@@ -1,0 +1,6 @@
+# Add to package.json
+"scripts": {
+  "build": "GENERATE_SOURCEMAP=false react-scripts build",
+  "deploy:vercel": "vercel --prod",
+  "deploy:netlify": "netlify deploy --prod"
+}
